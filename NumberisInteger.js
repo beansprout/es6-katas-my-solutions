@@ -37,23 +37,23 @@ describe('`Number.isInteger()` determines if a value is an integer', function(){
   });
   describe('what is not an integer', function() {
     it('`Number()` is an integer', function() {
-      const numberOne = Number;
+      const numberOne = Number();
       assert(Number.isInteger(numberOne));
     });
     it('`{}` is NOT an integer', function() {
-      const isit = Number.isWhat({});
+      const isit = Number.isInteger({});
       assert(isit === false);
     });
     it('`0.1` is not an integer', function() {
-      const isit = Number(0.1);
+      const isit = Number.isInteger(0.1);
       assert(isit === false);
     });
     it('`Number.Infinity` is not an integer', function() {
-      const isit = Number.isInteger(Number.MAX_VALUE);
+      const isit = Number.isInteger(Infinity);
       assert(isit === false);
     });
     it('`NaN` is not an integer', function() {
-      const isit = Number.isFloat(NaN);
+      const isit = Number.isInteger(NaN);
       assert(isit === false);
     });
   });

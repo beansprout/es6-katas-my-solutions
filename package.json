@@ -1,0 +1,19 @@
+{
+  "name": "temp-es6-katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "NumberisInteger.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beansprout/es6-katas-my-solutions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beansprout/es6-katas-my-solutions/issues"
+  },
+  "homepage": "https://github.com/beansprout/es6-katas-my-solutions#readme"
+}
