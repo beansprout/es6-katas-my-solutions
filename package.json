@@ -4,7 +4,7 @@
   "description": "",
   "main": "NumberisInteger.js",
   "scripts": {
-    "test": "test"
+    "test": ""
   },
   "repository": {
     "type": "git",
